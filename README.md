@@ -1,8 +1,8 @@
 # Churn Prediction
 
-#**Project Title: Churn Prediction**
+# **Project Title: Churn Prediction**
 
-###**Problem Statement:**
+### **Problem Statement:**
 
 The goal of this project is to develop a machine learning model that can predict whether a customer will leave the bank based on various features provided in the dataset. This prediction will help the bank in identifying customers who are at risk of leaving, allowing them to take proactive measures to retain those customers.
 
@@ -19,7 +19,7 @@ Approach:
 
 The ultimate objective is to develop a reliable churn prediction model that can assist the bank in reducing customer attrition and improving overall customer satisfaction and retention.
 
-####**Dataset**
+#### **Dataset**
 
 - RowNumber: Corresponds to the record (row) number and has no effect on the output.
 - CustomerId: Contains random values and has no effect on customer leaving the bank.
@@ -36,7 +36,7 @@ The ultimate objective is to develop a reliable churn prediction model that can 
 - EstimatedSalary: Customers with lower salaries are more likely to leave the bank.
 - Exited: Binary indicator of whether the customer left the bank (0=No, 1=Yes).
 
-- ###**Summary:**
+- ### **Summary:**
 
 This project aimed to develop a machine learning model to predict customer churn for a bank based on various customer attributes. The dataset provided included features such as credit score, geography, gender, age, tenure, balance, number of products, credit card status, activity status, and estimated salary. Through comprehensive exploratory data analysis (EDA), it was observed that factors such as age, gender, tenure, balance, number of products, credit card status, and activity status played significant roles in predicting customer churn.
 
@@ -44,6 +44,6 @@ Insights from the EDA revealed that certain demographic groups, such as younger 
 
 A simple ANN was trained and evaluated using various classification algorithms, including logistic regression, decision trees, random forests, and gradient boosting classifiers. The selected model achieved an accuracy of approximately 86% on both the training and test sets, indicating robust performance in predicting customer churn. However, further analysis of the model's precision, recall, and F1-score revealed disparities in its ability to correctly identify churned customers, particularly in terms of recall for class 1 (customers who left the bank).
 
-####**Conclusion:**
+### **Conclusion:**
 
 In conclusion, the developed machine learning model demonstrates promising performance in predicting customer churn for the bank. By leveraging insights gained from exploratory data analysis and utilizing advanced classification algorithms, the model provides valuable predictions that can assist the bank in identifying at-risk customers and implementing targeted retention strategies. However, there is room for improvement, particularly in accurately identifying churned customers to reduce false negatives and enhance the model's overall predictive power. Moving forward, continued refinement and optimization of the model, along with ongoing monitoring and validation against new data, will be essential to maintain its effectiveness in supporting the bank's efforts to mitigate customer churn and enhance customer retention.
