@@ -17,6 +17,8 @@ Approach:
 
 The ultimate objective is to develop a reliable churn prediction model that can assist the bank in reducing customer attrition and improving overall customer satisfaction and retention.
 
+![Alt text](https://raw.githubusercontent.com/raviatkumar/Churn-Prediction/main/images/pexels-karolina-grabowska-4386431.jpg)
+
 #### **Dataset**
 
 - RowNumber: Corresponds to the record (row) number and has no effect on the output.
