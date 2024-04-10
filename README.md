@@ -1,5 +1,3 @@
-# Churn Prediction
-
 # **Project Title: Churn Prediction**
 
 ### **Problem Statement:**
